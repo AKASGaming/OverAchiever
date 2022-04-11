@@ -18,6 +18,9 @@ DECLARE_CONFIG(ModConfig,
   // Include a percentage circle based on how close you are to finishing the achievement
   CONFIG_VALUE(Sounds, bool, "Completed sounds", true)
                
+  // Include a percentage circle based on how close you are to finishing the achievement
+  CONFIG_VALUE(Tooltips, bool, "Shows tooltips", true)
+               
 // Probably not plausible to depend on akia tweaks/anytweaks because its being rewritten like once a month.
 //  // false = , true = High Quality  https://github.com/NotAika/AikaTweaks/blob/main/src/ui/GraphicsViewController.cpp#L90
 //  CONFIG_VALUE(DisplayStyle, bool, "Display Style (Scroll <--> Grid)", true)
@@ -30,6 +33,7 @@ DECLARE_CONFIG(ModConfig,
     CONFIG_INIT_VALUE(BonusAchievements)
     CONFIG_INIT_VALUE(ProgressCircle)
     CONFIG_INIT_VALUE(Sounds)
+    CONFIG_INIT_VALUE(Tooltips)
 //    CONFIG_INIT_VALUE(DisplayStyle)
 //    CONFIG_INIT_VALUE(Alpha)
   )
