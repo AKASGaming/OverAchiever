@@ -19,7 +19,7 @@ DECLARE_CONFIG(ModConfig,
   CONFIG_VALUE(Sounds, bool, "Completed sounds", true)
                
   // Include a percentage circle based on how close you are to finishing the achievement
-  CONFIG_VALUE(Tooltips, bool, "Shows tooltips", true)
+  CONFIG_VALUE(Tooltips, bool, "Shows tooltips when hovering over achievement", true)
                
 // Probably not plausible to depend on akia tweaks/anytweaks because its being rewritten like once a month.
 //  // false = , true = High Quality  https://github.com/NotAika/AikaTweaks/blob/main/src/ui/GraphicsViewController.cpp#L90
