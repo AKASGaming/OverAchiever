@@ -1,0 +1,14 @@
+{
+	"_QPVersion": "0.1.1",
+	"name": "OverAchiever",
+	"id": "overachiever",
+	"author": "Team Pyramus",
+	"version": "${version}",
+	"packageId": "com.beatgames.beatsaber",
+	"packageVersion": "1.21.0",
+	"description": "A quest mod that brings Beat Saber achievements back into the game with some additional features",
+	"dependencies": [],
+	"modFiles": [],
+	"libraryFiles": [],
+	"fileCopies": []
+}
