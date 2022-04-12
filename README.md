@@ -7,10 +7,12 @@
 A Quest Mod that brings Beat Saber Achievements back into the game with some additional features
 
 ## Features: (W.I.P.)
+
 - [ ] Achievement Alerts during a level
 - [ ] Show completed achievements after finishing a level
 - [ ] Bonus Achievements
 - [ ] Achievement Packs (Experimental)
+- [ ] Shows recent achievements on main menu
 
 ## Contributing
 
