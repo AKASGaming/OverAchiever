@@ -62,6 +62,8 @@ qpm_defines.cmake
 [Bb]uild/
 cmake-build-*/
 extern.cmake
+
+#dont ask
 AchievementImages/100 Million.jpg
 AchievementImages/Charge.jpg
 AchievementImages/Concentrate.jpg
