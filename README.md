@@ -17,11 +17,11 @@ A Quest Mod that brings Beat Saber Achievements back into the game with some add
 
 ## Contributing
 
-You can contribute to any of my mods. Fork and modify to your heart's content as long as it respects the license.
+You can contribute to any of our mods. Fork and modify to your heart's content as long as it respects the license.
 
 We will not accept any of the following "Contributions":
 
-- Version bumps; We will update my mods myself to new versions of Beat Saber unless specifically stated - if we haven't updated the mod, it means we either do not support it or we am in process of rewriting the mod.
+- Version bumps; We will update our mods ourselves to new versions of Beat Saber unless specifically stated - if we haven't updated the mod, it means we either do not support it or we are in process of rewriting the mod.
 - README edits; Editing the readme file to fix a typo does not make you a contributor.
 
 ### Contributor(s)
