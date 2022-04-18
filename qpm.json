@@ -34,6 +34,16 @@
       "id": "config-utils",
       "versionRange": "^0.7.2",
       "additionalData": {}
+    },
+    {
+      "id": "bs-utils",
+      "versionRange": "^0.7.0",
+      "additionalData": {}
+    },
+    {
+      "id": "zip",
+      "versionRange": "^1.7.4",
+      "additionalData": {}
     }
   ],
   "additionalData": {}

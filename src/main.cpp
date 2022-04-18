@@ -1,6 +1,10 @@
 #include "main.hpp"
 
-static ModInfo modInfo; // Stores the ID and version of our mod, and is sent to the modloader upon startup
+#include "AchievementManager.hpp"
+#include "utils/FileHandling.hpp"
+#include <filesystem>
+
+namespace fs = std::filesystem;
 
 // Loads the config from disk using our modInfo, then returns it for use
 Configuration& getConfig() {
@@ -32,4 +36,14 @@ extern "C" void load() {
     getLogger().info("Installing hooks...");
     // Install our hooks (none defined yet)
     getLogger().info("Installed all hooks!");
+
+    if(!fs::exists(PACK_PATH)) {
+        fs::create_directories(PACK_PATH);
+    }
+
+    if(!fs::exists(PENDING_PACK_PATH)) {
+        fs::create_directories(PENDING_PACK_PATH);
+    }
+
+    OverAchiever::AchievementManager::loadAchievementPacks();
 }
