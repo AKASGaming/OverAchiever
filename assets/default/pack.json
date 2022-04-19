@@ -1,7 +1,7 @@
 {
   "uuid": "7ff8de4f-e7e0-4fce-8014-2e20adf239cb", // unique id, generate one at https://www.uuidgenerator.net/version4
-  "name": "Included achievements",
+  "name": "Base game",
   "author": "Oli",
   "summary": "The included achievement pack.",
-  "description": "The included achievement pack that contains over 20 achievements."
+  "description": "The included achievement pack that contains achievements that used to be in the game."
 }
