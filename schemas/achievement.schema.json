@@ -67,13 +67,21 @@
             "properties": {
                 "difficulty": {
                     "$id": "#/properties/display/properties/difficulty",
-                    "type": "string",
-                    "title": "The difficulty schema",
-                    "description": "An explanation about the purpose of this instance.",
                     "default": "",
+                    "description": "An explanation about the purpose of this instance.",
                     "examples": [
                         "NORMAL"
-                    ]
+                    ],
+                    "title": "The difficulty schema",
+                    "enum": [
+                        "NORMAL",
+                        "EXPERT",
+                        "EASY",
+                        "EXPERT+",
+                        "HARD",
+                        "IMPOSSIBLE"
+                    ],
+                    "type": "string"
                 },
                 "title": {
                     "$id": "#/properties/display/properties/title",
