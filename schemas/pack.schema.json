@@ -1,0 +1,77 @@
+{
+    "$id": "http://example.com/example.json",
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "default": {},
+    "description": "Achievement Pack pack.json Schema",
+    "examples": [
+        {
+            "uuid": "c96a8e00-5d81-4356-87e4-eb4740140c8e",
+            "name": "My Achievement Pack",
+            "author": "Me, My Friend",
+            "summary": "A cool pack.",
+            "description": "A cool pack that contains over 300 achievements (i wish) <color=red>This field supports unity rich text as it is shown in game</color>"
+        }
+    ],
+    "required": [
+        "uuid",
+        "name",
+        "author",
+        "summary",
+        "description"
+    ],
+    "title": "pack.json",
+    "type": "object",
+    "properties": {
+        "uuid": {
+            "$id": "#/properties/uuid",
+            "default": "",
+            "description": "This must be unique, it is used to identify your achievement pack in data storage.",
+            "examples": [
+                "c96a8e00-5d81-4356-87e4-eb4740140c8e"
+            ],
+            "title": "UUID",
+            "type": "string"
+        },
+        "name": {
+            "$id": "#/properties/name",
+            "default": "",
+            "description": "The name of the achievement pack.",
+            "examples": [
+                "My Achievement Pack"
+            ],
+            "title": "Achievement Pack Name",
+            "type": "string"
+        },
+        "author": {
+            "$id": "#/properties/author",
+            "default": "",
+            "description": "The author(s) of the achievement pack.",
+            "examples": [
+                "Me, My Friend"
+            ],
+            "title": "Author",
+            "type": "string"
+        },
+        "summary": {
+            "$id": "#/properties/summary",
+            "default": "",
+            "description": "A short explanation on what your pack is (<20 characters)",
+            "examples": [
+                "A cool pack."
+            ],
+            "title": "Summary of the pack.",
+            "type": "string"
+        },
+        "description": {
+            "$id": "#/properties/description",
+            "default": "",
+            "description": "A longer description of the pack. (<500 characters)",
+            "examples": [
+                "A cool pack that contains over 300 achievements (i wish) <color=red>This field supports unity rich text as it is shown in game</color>"
+            ],
+            "title": "Pack description.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": true
+}

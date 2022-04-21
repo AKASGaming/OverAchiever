@@ -1,0 +1,182 @@
+{
+    "$id": "http://example.com/example.json",
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "default": {},
+    "description": "The root schema comprises the entire JSON document.",
+    "examples": [
+        {
+            "display": {
+                "difficulty": "NORMAL",
+                "title": "Overlord",
+                "description": "Full Combo Ov Sacrement and Sincest with the Super Fast Song modifier.",
+                "secret": false
+            },
+            "logic": [
+                {
+                    "type": "base:reset_after_custom_map",
+                    "data": {
+                        "code": "c32d"
+                    }
+                }
+            ],
+            "criteria": {
+                "fullComboOv": {
+                    "trigger": "base:full_combo",
+                    "conditions": [
+                        {
+                            "type": "base:require_custom_map",
+                            "data": {
+                                "code": "c32d"
+                            }
+                        }
+                    ]
+                }
+            },
+            "requirements": [
+                "fullComboOv"
+            ]
+        }
+    ],
+    "required": [
+        "display",
+        "criteria",
+        "requirements"
+    ],
+    "title": "The root schema",
+    "type": "object",
+    "properties": {
+        "display": {
+            "$id": "#/properties/display",
+            "default": {},
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                {
+                    "difficulty": "NORMAL",
+                    "title": "Overlord",
+                    "description": "Full Combo Ov Sacrement and Sincest with the Super Fast Song modifier.",
+                    "secret": false
+                }
+            ],
+            "required": [
+                "difficulty",
+                "title",
+                "description"
+            ],
+            "title": "The display schema",
+            "type": "object",
+            "properties": {
+                "difficulty": {
+                    "$id": "#/properties/display/properties/difficulty",
+                    "default": "",
+                    "description": "An explanation about the purpose of this instance.",
+                    "examples": [
+                        "NORMAL"
+                    ],
+                    "title": "The difficulty schema",
+                    "enum": [
+                        "NORMAL",
+                        "EXPERT",
+                        "EASY",
+                        "EXPERT+",
+                        "HARD",
+                        "IMPOSSIBLE"
+                    ],
+                    "type": "string"
+                },
+                "title": {
+                    "$id": "#/properties/display/properties/title",
+                    "type": "string",
+                    "title": "The title schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Overlord"
+                    ]
+                },
+                "description": {
+                    "$id": "#/properties/display/properties/description",
+                    "default": "",
+                    "description": "An explanation about the purpose of this instance.",
+                    "examples": [
+                        "Full Combo Ov Sacrement and Sincest with the Super Fast Song modifier."
+                    ],
+                    "title": "The description schema",
+                    "type": "string"
+                },
+                "secret": {
+                    "$id": "#/properties/display/properties/secret",
+                    "default": false,
+                    "description": "An explanation about the purpose of this instance.",
+                    "examples": [
+                        false
+                    ],
+                    "title": "The secret schema",
+                    "type": "boolean"
+                }
+            },
+            "additionalProperties": true
+        },
+        "logic": {
+            "$id": "#/properties/logic",
+            "default": [],
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                [
+                    {
+                        "type": "base:reset_after_custom_map",
+                        "data": {
+                            "code": "c32d"
+                        }
+                    }
+                ]
+            ],
+            "title": "The logic schema",
+            "type": "array",
+            "additionalItems": true
+        },
+        "criteria": {
+            "$id": "#/properties/criteria",
+            "type": "object",
+            "title": "The criteria schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "fullComboOv": {
+                        "trigger": "base:full_combo",
+                        "conditions": [
+                            {
+                                "type": "base:require_custom_map",
+                                "data": {
+                                    "code": "c32d"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "required": [
+                "fullComboOv"
+            ],
+            "additionalProperties": true
+        },
+        "requirements": {
+            "$id": "#/properties/requirements",
+            "type": "array",
+            "title": "The requirements schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    "fullComboOv"
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/requirements/items",
+                "type": "array"
+            }
+        }
+    },
+    "additionalProperties": true
+}
