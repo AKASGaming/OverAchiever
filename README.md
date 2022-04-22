@@ -19,6 +19,12 @@ A Quest Mod that brings Beat Saber Achievements back into the game with some add
 
 Take a look [at the wiki](https://github.com/AKASGaming/OverAchiever/wiki) to learn how to start one
 
+## Need more help? Got suggestions? Join our Discord!
+
+https://discord.gg/bKHCqJaY35
+
+
+
 ## Contributing
 
 You can contribute to any of our mods. Fork and modify to your heart's content as long as it respects the license.
