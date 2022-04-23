@@ -23,7 +23,7 @@ Take a look [at the wiki](https://github.com/AKASGaming/OverAchiever/wiki) to le
 
 https://discord.gg/bKHCqJaY35
 
-![https://discord.gg/bKHCqJaY35](https://discordapp.com/api/guilds/966083635285459015/widget.png?style=banner4)
+[<img src="https://discordapp.com/api/guilds/966083635285459015/widget.png?style=banner4" alt="">](https://discord.gg/bKHCqJaY35)
 
 ## Contributing
 
