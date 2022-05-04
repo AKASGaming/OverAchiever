@@ -64,32 +64,6 @@ cmake-build-*/
 extern.cmake
 
 #dont ask
-AchievementImages/100 Million.jpg
-AchievementImages/Charge.jpg
-AchievementImages/Concentrate.jpg
-AchievementImages/Day & Night.jpg
-AchievementImages/Drill.jpg
-AchievementImages/Drum Kit.jpg
-AchievementImages/Expert.jpg
-AchievementImages/Faster.jpg
-AchievementImages/Flawless.jpg
-AchievementImages/Focus.jpg
-AchievementImages/Good Enough.jpg
-AchievementImages/Hope.jpg
-AchievementImages/info.json
-AchievementImages/Memory.jpg
-AchievementImages/No Mistakes.jpg
-AchievementImages/Not the End.jpg
-AchievementImages/On the Edge.jpg
-AchievementImages/Pay Attention.jpg
-AchievementImages/Peace.jpg
-AchievementImages/Platinum.jpg
-AchievementImages/Precision.jpg
-AchievementImages/Progress.jpg
-AchievementImages/Pure.jpg
-AchievementImages/Special.jpg
-AchievementImages/Supreme.jpg
-AchievementImages/Traveller.jpg
-AchievementImages/Warm-up.jpg
-AchievementImages/You Are Ready.jpg
-cover.afphoto
+*.afphoto
+AchievementImages/
+images/
