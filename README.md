@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/cover.png" width="70%" height="auto">
+  <img src="cover.png" width="70%" height="auto">
 </div>
 
 # OverAchiever
